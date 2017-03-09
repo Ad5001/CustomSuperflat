@@ -1,0 +1,15 @@
+---
+name: CustomSuperflat
+author:  Ad5001
+version: 1.0
+api: [2.0.0]
+main: Ad5001\CustomSuperflat\Main
+commands:
+    superflat:
+      description: "Create a superflat world with the preset of the whole column where you are"
+      usage: "/superflat <name>"
+      permission: superflat.create
+permissions:
+    superflat.create:
+      default: op
+...
